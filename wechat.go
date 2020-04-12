@@ -114,6 +114,7 @@ func (wc *Wechat) GetMiniProgram() *miniprogram.MiniProgram {
 	return miniprogram.NewMiniProgram(wc.Context)
 }
 
+
 // 小程序订阅消息
 func (wc *Wechat) GetSubscriber() *miniprogram.Subscriber {
 	return miniprogram.NewSubscriber(wc.Context)
